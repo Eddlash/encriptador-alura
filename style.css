@@ -1,0 +1,160 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background: #f3f5fc;
+}
+
+.container {
+    margin: auto;
+    width: 950px;
+    height: 650px;
+    padding: 5px;
+}
+
+#titulo {
+    color: #0A3871;
+    font-family: 'Inter';
+}
+
+.logo-container {
+    width: 100%;
+    float: left;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+#titulo {
+    float: inherit;
+    margin-left: auto;
+}
+
+
+.left-container {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.right-container {
+    position: absolute;
+    width: 400px;
+    height: 620px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.btn-left {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+#texto {
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+#texto2 {
+    margin-left: 16%;
+    
+}
+
+#logo-derecho {
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+
+#texto-derecho {
+    margin-left: 7%;
+    margin-right: 5%;
+    font-family: 'Inter';
+}
+
+#desencriptado {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 13%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Inter';
+}
+
+#encriptador {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+#desencriptador {
+    padding: 24px;
+    width: 30%;
+    height: 30%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+
+#copiar {
+    display: none;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+
+footer {
+    background: #0A3871;
+    text-align: center;
+}
+
+.imagenFondo {
+    text-align: center;
+    width: 150px;
+    height: 220px;
+    padding: 10px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
